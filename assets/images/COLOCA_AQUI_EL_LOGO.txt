@@ -1,0 +1,9 @@
+Coloca el logo del panda en esta carpeta con el nombre exacto:
+
+  logo.png
+
+La app lo usará automáticamente en el splash, onboarding, perfil y
+pantallas de celebración. Mientras no exista, se muestra un panda de
+respaldo con los colores de la marca (la app no se rompe).
+
+Recomendado: PNG cuadrado, mínimo 512x512, con fondo transparente o circular.

@@ -1,0 +1,41 @@
+name: speaknow
+description: "SpeakNow English Academy — aprende inglés jugando."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Estado
+  provider: ^6.1.2
+
+  # Persistencia local (progreso, racha, XP)
+  shared_preferences: ^2.3.3
+
+  # Texto a voz (ejercicios de escucha)
+  flutter_tts: ^4.2.0
+
+  # Reconocimiento de voz (ejercicios de habla)
+  speech_to_text: ^7.0.0
+
+  # Tipografía redondeada estilo Duolingo
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
